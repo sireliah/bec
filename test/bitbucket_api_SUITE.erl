@@ -12,6 +12,7 @@
         , set_default_branch/1
         , get_wz_branch_reviewers/1
         , get_wz_branch_reviewers_when_none_configured/1
+        , get_wz_branch_reviewers_with_mandatory/1
         ]).
 
 -include_lib("common_test/include/ct.hrl").
